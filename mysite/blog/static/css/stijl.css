@@ -1,5 +1,65 @@
-body{background-color: orange;color: black;}
+body {
+    margin: 0;
+    color: black;
+}
 
-h1{color: white;}
+.website {
+    width: 875px;
+    margin: 0 auto;
+}
 
-article{width: 500px;margin-bottom: 40px;border: 3px solid red;}
+/* Bovenste oranje gedeelte */
+header {
+    height: 85px;
+    background-color: orange;
+    padding: 10px 45px;
+}
+
+h1 {
+    color: black;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+/* Rode gedeelte */
+main {
+    min-height: 635px;
+    background-color: firebrick;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+/* De roze berichten */
+article {
+    width: 320px;
+    margin-left: 385px;
+    margin-bottom: 25px;
+    padding: 2px;
+    background-color: pink;
+    border: 2px solid white;
+}
+}
+
+article h2 {
+    font-size: 21px;
+    margin: 0;
+}
+
+article h2 a {
+    color: orange;
+}
+
+article p {
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+
+.date {
+    font-size: 10px;
+}
+
+/* Onderste oranje gedeelte */
+footer {
+    height: 65px;
+    background-color: orange;
+}
